@@ -1,0 +1,84 @@
+/* CSS Measurments */
+
+/* px, pt, %, em, rem, vh, vw  */
+/* Static, responsive */
+
+/* Global */
+
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+h1, p {
+  margin: 5px; 
+}
+
+h2, p {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(43, 48, 52);
+  color: antiquewhite;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 900px;
+}
+
+.top-text {
+  top: 10px;
+  background-color: rgba(59, 81, 81, 0.797);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 4px rgb(0, 0, 0);
+  width: 600px;
+  margin: 0 auto;
+}
+
+.boxes {
+  position: absolute;
+  width: 300px;
+  background-color: rgba(9, 48, 48, 0.8);
+  text-align: center;
+  border-top: 6px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Floppa-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Floppa-container img {
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+
+floppa-middle {
+ text-align: center;
+ max-width: 800px;
+ 
+}
+
+.floppy-text {
+  text-align: center;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+
+
